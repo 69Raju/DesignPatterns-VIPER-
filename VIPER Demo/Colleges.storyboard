@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Colleges-->
+        <scene sceneID="b5z-kO-cVQ">
+            <objects>
+                <viewController storyboardIdentifier="CollegesViewController" title="Colleges" id="oP8-Dh-bvw" customClass="CollegesViewController" customModule="VIPER_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="54g-cP-xNQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="PUd-nJ-nQa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wtf-pi-bID">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="I3k-MI-6df">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="oP8-Dh-bvw" id="9NE-ll-1VZ"/>
+                                    <outlet property="delegate" destination="oP8-Dh-bvw" id="5DJ-ha-idn"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i3n-oD-Uzx">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No countries found" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrW-f4-RKA">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="3a9-iY-sGq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="vrW-f4-RKA" firstAttribute="centerY" secondItem="i3n-oD-Uzx" secondAttribute="centerY" id="59d-Qb-jPg"/>
+                                    <constraint firstItem="vrW-f4-RKA" firstAttribute="leading" secondItem="i3n-oD-Uzx" secondAttribute="leading" constant="50" id="YLM-8z-mFc"/>
+                                    <constraint firstAttribute="trailing" secondItem="vrW-f4-RKA" secondAttribute="trailing" constant="50" id="crc-cs-gCP"/>
+                                    <constraint firstItem="vrW-f4-RKA" firstAttribute="centerX" secondItem="i3n-oD-Uzx" secondAttribute="centerX" id="e9g-SM-MEK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="I3k-MI-6df" firstAttribute="top" secondItem="54g-cP-xNQ" secondAttribute="bottom" id="2Ab-08-5bD"/>
+                            <constraint firstAttribute="trailing" secondItem="I3k-MI-6df" secondAttribute="trailing" id="6WL-l9-4eh"/>
+                            <constraint firstItem="i3n-oD-Uzx" firstAttribute="leading" secondItem="wtf-pi-bID" secondAttribute="leading" id="Rhp-gy-abW"/>
+                            <constraint firstItem="PUd-nJ-nQa" firstAttribute="top" secondItem="i3n-oD-Uzx" secondAttribute="bottom" id="Tk9-sO-QW5"/>
+                            <constraint firstAttribute="trailing" secondItem="i3n-oD-Uzx" secondAttribute="trailing" id="XPy-5g-TIL"/>
+                            <constraint firstItem="PUd-nJ-nQa" firstAttribute="top" secondItem="I3k-MI-6df" secondAttribute="bottom" id="aO8-0Y-UvA"/>
+                            <constraint firstItem="i3n-oD-Uzx" firstAttribute="top" secondItem="54g-cP-xNQ" secondAttribute="bottom" id="g70-TS-onV"/>
+                            <constraint firstItem="I3k-MI-6df" firstAttribute="leading" secondItem="wtf-pi-bID" secondAttribute="leading" id="xqU-u7-p0C"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collegesTableView" destination="I3k-MI-6df" id="8XF-lw-QBN"/>
+                        <outlet property="errorView" destination="i3n-oD-Uzx" id="MQX-61-QvS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMs-9a-Rnb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-393" y="-91"/>
+        </scene>
+    </scenes>
+</document>

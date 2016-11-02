@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A6EA934293441639BA786EB /* Pods_VIPER_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893B49209B53A62073DFC190 /* Pods_VIPER_Demo.framework */; };
+		E67D56BE1DBDE6F800BE4276 /* Countries.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67D56BD1DBDE6F800BE4276 /* Countries.storyboard */; };
+		E6AC40621DC0857E00DEDCBA /* CollegeDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC403B1DC0857E00DEDCBA /* CollegeDetailsInteractor.swift */; };
+		E6AC40631DC0857E00DEDCBA /* CollegeDetailsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC403C1DC0857E00DEDCBA /* CollegeDetailsInteractorInput.swift */; };
+		E6AC40641DC0857E00DEDCBA /* CollegeDetailsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC403D1DC0857E00DEDCBA /* CollegeDetailsInteractorOutput.swift */; };
+		E6AC40651DC0857E00DEDCBA /* CollegeDetailsModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC403F1DC0857E00DEDCBA /* CollegeDetailsModuleInterface.swift */; };
+		E6AC40661DC0857E00DEDCBA /* CollegeDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40401DC0857E00DEDCBA /* CollegeDetailsPresenter.swift */; };
+		E6AC40671DC0857E00DEDCBA /* CollegeDetailsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40421DC0857E00DEDCBA /* CollegeDetailsWireframe.swift */; };
+		E6AC40681DC0857E00DEDCBA /* CollegeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40441DC0857E00DEDCBA /* CollegeDetailsViewController.swift */; };
+		E6AC40691DC0857E00DEDCBA /* CollegeDetailsViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40451DC0857E00DEDCBA /* CollegeDetailsViewInterface.swift */; };
+		E6AC406A1DC0857E00DEDCBA /* CollegesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40491DC0857E00DEDCBA /* CollegesInteractor.swift */; };
+		E6AC406B1DC0857E00DEDCBA /* CollegesInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC404A1DC0857E00DEDCBA /* CollegesInteractorInput.swift */; };
+		E6AC406C1DC0857E00DEDCBA /* CollegesInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC404B1DC0857E00DEDCBA /* CollegesInteractorOutput.swift */; };
+		E6AC406D1DC0857E00DEDCBA /* CollegesModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC404D1DC0857E00DEDCBA /* CollegesModuleInterface.swift */; };
+		E6AC406E1DC0857E00DEDCBA /* CollegesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC404E1DC0857E00DEDCBA /* CollegesPresenter.swift */; };
+		E6AC406F1DC0857E00DEDCBA /* CollegesWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40501DC0857E00DEDCBA /* CollegesWireframe.swift */; };
+		E6AC40701DC0857E00DEDCBA /* CollegesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40521DC0857E00DEDCBA /* CollegesViewController.swift */; };
+		E6AC40711DC0857E00DEDCBA /* CollegesViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40531DC0857E00DEDCBA /* CollegesViewInterface.swift */; };
+		E6AC40721DC0857E00DEDCBA /* CountriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40571DC0857E00DEDCBA /* CountriesInteractor.swift */; };
+		E6AC40731DC0857E00DEDCBA /* CountriesInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40581DC0857E00DEDCBA /* CountriesInteractorInput.swift */; };
+		E6AC40741DC0857E00DEDCBA /* CountriesInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40591DC0857E00DEDCBA /* CountriesInteractorOutput.swift */; };
+		E6AC40751DC0857E00DEDCBA /* CountriesModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC405B1DC0857E00DEDCBA /* CountriesModuleInterface.swift */; };
+		E6AC40761DC0857E00DEDCBA /* CountriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC405C1DC0857E00DEDCBA /* CountriesPresenter.swift */; };
+		E6AC40771DC0857E00DEDCBA /* CountriesWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC405E1DC0857E00DEDCBA /* CountriesWireframe.swift */; };
+		E6AC40781DC0857E00DEDCBA /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40601DC0857E00DEDCBA /* CountriesViewController.swift */; };
+		E6AC40791DC0857E00DEDCBA /* CountriesViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC40611DC0857E00DEDCBA /* CountriesViewInterface.swift */; };
+		E6F8E7E31DC09E4500E514A6 /* Colleges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F8E7E21DC09E4500E514A6 /* Colleges.storyboard */; };
+		E6F8E7E51DC0B4B700E514A6 /* CollegeDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F8E7E41DC0B4B700E514A6 /* CollegeDetails.storyboard */; };
+		E6FA56D51DB9F75C007E5FE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FA56D41DB9F75C007E5FE7 /* AppDelegate.swift */; };
+		E6FA56DE1DB9F75C007E5FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FA56DD1DB9F75C007E5FE7 /* Assets.xcassets */; };
+		E6FA56E11DB9F75C007E5FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FA56DF1DB9F75C007E5FE7 /* LaunchScreen.storyboard */; };
+		E6FA56EC1DB9F75C007E5FE7 /* VIPER_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FA56EB1DB9F75C007E5FE7 /* VIPER_DemoTests.swift */; };
+		E6FA56F71DB9F75C007E5FE7 /* VIPER_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FA56F61DB9F75C007E5FE7 /* VIPER_DemoUITests.swift */; };
+		E6FA57081DB9FDD4007E5FE7 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FA57071DB9FDD4007E5FE7 /* AppDependencies.swift */; };
+		E6FA57491DBA304E007E5FE7 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FA57481DBA304E007E5FE7 /* RootWireframe.swift */; };
+		E6FB52C91DC082680064CF04 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E6FB52C81DC082680064CF04 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6FA56E81DB9F75C007E5FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6FA56C91DB9F75C007E5FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6FA56D01DB9F75C007E5FE7;
+			remoteInfo = "VIPER Demo";
+		};
+		E6FA56F31DB9F75C007E5FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6FA56C91DB9F75C007E5FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6FA56D01DB9F75C007E5FE7;
+			remoteInfo = "VIPER Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E0B683A2B88372C31616770 /* Pods-VIPER Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIPER Demo/Pods-VIPER Demo.release.xcconfig"; sourceTree = "<group>"; };
+		893B49209B53A62073DFC190 /* Pods_VIPER_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPER_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E04429915AA17A6D0E1952 /* Pods-VIPER Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIPER Demo/Pods-VIPER Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E67D56BD1DBDE6F800BE4276 /* Countries.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Countries.storyboard; sourceTree = "<group>"; };
+		E6AC403B1DC0857E00DEDCBA /* CollegeDetailsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeDetailsInteractor.swift; sourceTree = "<group>"; };
+		E6AC403C1DC0857E00DEDCBA /* CollegeDetailsInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeDetailsInteractorInput.swift; sourceTree = "<group>"; };
+		E6AC403D1DC0857E00DEDCBA /* CollegeDetailsInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeDetailsInteractorOutput.swift; sourceTree = "<group>"; };
+		E6AC403F1DC0857E00DEDCBA /* CollegeDetailsModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeDetailsModuleInterface.swift; sourceTree = "<group>"; };
+		E6AC40401DC0857E00DEDCBA /* CollegeDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeDetailsPresenter.swift; sourceTree = "<group>"; };
+		E6AC40421DC0857E00DEDCBA /* CollegeDetailsWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeDetailsWireframe.swift; sourceTree = "<group>"; };
+		E6AC40441DC0857E00DEDCBA /* CollegeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeDetailsViewController.swift; sourceTree = "<group>"; };
+		E6AC40451DC0857E00DEDCBA /* CollegeDetailsViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeDetailsViewInterface.swift; sourceTree = "<group>"; };
+		E6AC40491DC0857E00DEDCBA /* CollegesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesInteractor.swift; sourceTree = "<group>"; };
+		E6AC404A1DC0857E00DEDCBA /* CollegesInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesInteractorInput.swift; sourceTree = "<group>"; };
+		E6AC404B1DC0857E00DEDCBA /* CollegesInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesInteractorOutput.swift; sourceTree = "<group>"; };
+		E6AC404D1DC0857E00DEDCBA /* CollegesModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesModuleInterface.swift; sourceTree = "<group>"; };
+		E6AC404E1DC0857E00DEDCBA /* CollegesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesPresenter.swift; sourceTree = "<group>"; };
+		E6AC40501DC0857E00DEDCBA /* CollegesWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesWireframe.swift; sourceTree = "<group>"; };
+		E6AC40521DC0857E00DEDCBA /* CollegesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesViewController.swift; sourceTree = "<group>"; };
+		E6AC40531DC0857E00DEDCBA /* CollegesViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesViewInterface.swift; sourceTree = "<group>"; };
+		E6AC40571DC0857E00DEDCBA /* CountriesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesInteractor.swift; sourceTree = "<group>"; };
+		E6AC40581DC0857E00DEDCBA /* CountriesInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesInteractorInput.swift; sourceTree = "<group>"; };
+		E6AC40591DC0857E00DEDCBA /* CountriesInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesInteractorOutput.swift; sourceTree = "<group>"; };
+		E6AC405B1DC0857E00DEDCBA /* CountriesModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesModuleInterface.swift; sourceTree = "<group>"; };
+		E6AC405C1DC0857E00DEDCBA /* CountriesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesPresenter.swift; sourceTree = "<group>"; };
+		E6AC405E1DC0857E00DEDCBA /* CountriesWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesWireframe.swift; sourceTree = "<group>"; };
+		E6AC40601DC0857E00DEDCBA /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		E6AC40611DC0857E00DEDCBA /* CountriesViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewInterface.swift; sourceTree = "<group>"; };
+		E6F8E7E21DC09E4500E514A6 /* Colleges.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colleges.storyboard; sourceTree = "<group>"; };
+		E6F8E7E41DC0B4B700E514A6 /* CollegeDetails.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollegeDetails.storyboard; sourceTree = "<group>"; };
+		E6FA56D11DB9F75C007E5FE7 /* VIPER Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPER Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FA56D41DB9F75C007E5FE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6FA56DD1DB9F75C007E5FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6FA56E01DB9F75C007E5FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6FA56E21DB9F75C007E5FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FA56E71DB9F75C007E5FE7 /* VIPER DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIPER DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FA56EB1DB9F75C007E5FE7 /* VIPER_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_DemoTests.swift; sourceTree = "<group>"; };
+		E6FA56ED1DB9F75C007E5FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FA56F21DB9F75C007E5FE7 /* VIPER DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIPER DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FA56F61DB9F75C007E5FE7 /* VIPER_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_DemoUITests.swift; sourceTree = "<group>"; };
+		E6FA56F81DB9F75C007E5FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FA57071DB9FDD4007E5FE7 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		E6FA57481DBA304E007E5FE7 /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		E6FB52C81DC082680064CF04 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6FA56CE1DB9F75C007E5FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6EA934293441639BA786EB /* Pods_VIPER_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FA56E41DB9F75C007E5FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FA56EF1DB9F75C007E5FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32D1219F99C905E163E4AD4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1E04429915AA17A6D0E1952 /* Pods-VIPER Demo.debug.xcconfig */,
+				1E0B683A2B88372C31616770 /* Pods-VIPER Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B76C531BDD1F1356F72FC38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				893B49209B53A62073DFC190 /* Pods_VIPER_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6AC40371DC0857E00DEDCBA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40541DC0857E00DEDCBA /* Countries */,
+				E6AC40461DC0857E00DEDCBA /* Colleges */,
+				E6AC40381DC0857E00DEDCBA /* About College */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E6AC40381DC0857E00DEDCBA /* About College */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40391DC0857E00DEDCBA /* Entities */,
+				E6AC403A1DC0857E00DEDCBA /* Interactor */,
+				E6AC403E1DC0857E00DEDCBA /* Presenter */,
+				E6AC40411DC0857E00DEDCBA /* Router */,
+				E6AC40431DC0857E00DEDCBA /* View */,
+			);
+			path = "About College";
+			sourceTree = "<group>";
+		};
+		E6AC40391DC0857E00DEDCBA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E6AC403A1DC0857E00DEDCBA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC403B1DC0857E00DEDCBA /* CollegeDetailsInteractor.swift */,
+				E6AC403C1DC0857E00DEDCBA /* CollegeDetailsInteractorInput.swift */,
+				E6AC403D1DC0857E00DEDCBA /* CollegeDetailsInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E6AC403E1DC0857E00DEDCBA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC403F1DC0857E00DEDCBA /* CollegeDetailsModuleInterface.swift */,
+				E6AC40401DC0857E00DEDCBA /* CollegeDetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E6AC40411DC0857E00DEDCBA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40421DC0857E00DEDCBA /* CollegeDetailsWireframe.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E6AC40431DC0857E00DEDCBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40441DC0857E00DEDCBA /* CollegeDetailsViewController.swift */,
+				E6AC40451DC0857E00DEDCBA /* CollegeDetailsViewInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6AC40461DC0857E00DEDCBA /* Colleges */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40471DC0857E00DEDCBA /* Entities */,
+				E6AC40481DC0857E00DEDCBA /* Interactor */,
+				E6AC404C1DC0857E00DEDCBA /* Presenter */,
+				E6AC404F1DC0857E00DEDCBA /* Router */,
+				E6AC40511DC0857E00DEDCBA /* View */,
+			);
+			path = Colleges;
+			sourceTree = "<group>";
+		};
+		E6AC40471DC0857E00DEDCBA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E6AC40481DC0857E00DEDCBA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40491DC0857E00DEDCBA /* CollegesInteractor.swift */,
+				E6AC404A1DC0857E00DEDCBA /* CollegesInteractorInput.swift */,
+				E6AC404B1DC0857E00DEDCBA /* CollegesInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E6AC404C1DC0857E00DEDCBA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC404D1DC0857E00DEDCBA /* CollegesModuleInterface.swift */,
+				E6AC404E1DC0857E00DEDCBA /* CollegesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E6AC404F1DC0857E00DEDCBA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40501DC0857E00DEDCBA /* CollegesWireframe.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E6AC40511DC0857E00DEDCBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40521DC0857E00DEDCBA /* CollegesViewController.swift */,
+				E6AC40531DC0857E00DEDCBA /* CollegesViewInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6AC40541DC0857E00DEDCBA /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40551DC0857E00DEDCBA /* Entities */,
+				E6AC40561DC0857E00DEDCBA /* Interactor */,
+				E6AC405A1DC0857E00DEDCBA /* Presenter */,
+				E6AC405D1DC0857E00DEDCBA /* Router */,
+				E6AC405F1DC0857E00DEDCBA /* View */,
+			);
+			path = Countries;
+			sourceTree = "<group>";
+		};
+		E6AC40551DC0857E00DEDCBA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E6AC40561DC0857E00DEDCBA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40571DC0857E00DEDCBA /* CountriesInteractor.swift */,
+				E6AC40581DC0857E00DEDCBA /* CountriesInteractorInput.swift */,
+				E6AC40591DC0857E00DEDCBA /* CountriesInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E6AC405A1DC0857E00DEDCBA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC405B1DC0857E00DEDCBA /* CountriesModuleInterface.swift */,
+				E6AC405C1DC0857E00DEDCBA /* CountriesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E6AC405D1DC0857E00DEDCBA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC405E1DC0857E00DEDCBA /* CountriesWireframe.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E6AC405F1DC0857E00DEDCBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC40601DC0857E00DEDCBA /* CountriesViewController.swift */,
+				E6AC40611DC0857E00DEDCBA /* CountriesViewInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6FA56C81DB9F75C007E5FE7 = {
+			isa = PBXGroup;
+			children = (
+				E6FA56D31DB9F75C007E5FE7 /* VIPER Demo */,
+				E6FA56EA1DB9F75C007E5FE7 /* VIPER DemoTests */,
+				E6FA56F51DB9F75C007E5FE7 /* VIPER DemoUITests */,
+				E6FA56D21DB9F75C007E5FE7 /* Products */,
+				32D1219F99C905E163E4AD4F /* Pods */,
+				7B76C531BDD1F1356F72FC38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6FA56D21DB9F75C007E5FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6FA56D11DB9F75C007E5FE7 /* VIPER Demo.app */,
+				E6FA56E71DB9F75C007E5FE7 /* VIPER DemoTests.xctest */,
+				E6FA56F21DB9F75C007E5FE7 /* VIPER DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6FA56D31DB9F75C007E5FE7 /* VIPER Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E6FB52C81DC082680064CF04 /* Podfile */,
+				E6FA56D41DB9F75C007E5FE7 /* AppDelegate.swift */,
+				E6FA57071DB9FDD4007E5FE7 /* AppDependencies.swift */,
+				E6FA57481DBA304E007E5FE7 /* RootWireframe.swift */,
+				E6AC40371DC0857E00DEDCBA /* Modules */,
+				E6FA56DD1DB9F75C007E5FE7 /* Assets.xcassets */,
+				E6FA56DF1DB9F75C007E5FE7 /* LaunchScreen.storyboard */,
+				E67D56BD1DBDE6F800BE4276 /* Countries.storyboard */,
+				E6F8E7E21DC09E4500E514A6 /* Colleges.storyboard */,
+				E6F8E7E41DC0B4B700E514A6 /* CollegeDetails.storyboard */,
+				E6FA56E21DB9F75C007E5FE7 /* Info.plist */,
+			);
+			path = "VIPER Demo";
+			sourceTree = "<group>";
+		};
+		E6FA56EA1DB9F75C007E5FE7 /* VIPER DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6FA56EB1DB9F75C007E5FE7 /* VIPER_DemoTests.swift */,
+				E6FA56ED1DB9F75C007E5FE7 /* Info.plist */,
+			);
+			path = "VIPER DemoTests";
+			sourceTree = "<group>";
+		};
+		E6FA56F51DB9F75C007E5FE7 /* VIPER DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6FA56F61DB9F75C007E5FE7 /* VIPER_DemoUITests.swift */,
+				E6FA56F81DB9F75C007E5FE7 /* Info.plist */,
+			);
+			path = "VIPER DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6FA56D01DB9F75C007E5FE7 /* VIPER Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FA56FB1DB9F75C007E5FE7 /* Build configuration list for PBXNativeTarget "VIPER Demo" */;
+			buildPhases = (
+				41A770815A4AFFA0A7AC099F /* [CP] Check Pods Manifest.lock */,
+				E6FA56CD1DB9F75C007E5FE7 /* Sources */,
+				E6FA56CE1DB9F75C007E5FE7 /* Frameworks */,
+				E6FA56CF1DB9F75C007E5FE7 /* Resources */,
+				E0093D2C24BE52F58F085AD8 /* [CP] Embed Pods Frameworks */,
+				C6D83DE883D5AB25BB2B743B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VIPER Demo";
+			productName = "VIPER Demo";
+			productReference = E6FA56D11DB9F75C007E5FE7 /* VIPER Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6FA56E61DB9F75C007E5FE7 /* VIPER DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FA56FE1DB9F75C007E5FE7 /* Build configuration list for PBXNativeTarget "VIPER DemoTests" */;
+			buildPhases = (
+				E6FA56E31DB9F75C007E5FE7 /* Sources */,
+				E6FA56E41DB9F75C007E5FE7 /* Frameworks */,
+				E6FA56E51DB9F75C007E5FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6FA56E91DB9F75C007E5FE7 /* PBXTargetDependency */,
+			);
+			name = "VIPER DemoTests";
+			productName = "VIPER DemoTests";
+			productReference = E6FA56E71DB9F75C007E5FE7 /* VIPER DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6FA56F11DB9F75C007E5FE7 /* VIPER DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FA57011DB9F75C007E5FE7 /* Build configuration list for PBXNativeTarget "VIPER DemoUITests" */;
+			buildPhases = (
+				E6FA56EE1DB9F75C007E5FE7 /* Sources */,
+				E6FA56EF1DB9F75C007E5FE7 /* Frameworks */,
+				E6FA56F01DB9F75C007E5FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6FA56F41DB9F75C007E5FE7 /* PBXTargetDependency */,
+			);
+			name = "VIPER DemoUITests";
+			productName = "VIPER DemoUITests";
+			productReference = E6FA56F21DB9F75C007E5FE7 /* VIPER DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6FA56C91DB9F75C007E5FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Nagaraju;
+				TargetAttributes = {
+					E6FA56D01DB9F75C007E5FE7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					E6FA56E61DB9F75C007E5FE7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6FA56D01DB9F75C007E5FE7;
+					};
+					E6FA56F11DB9F75C007E5FE7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6FA56D01DB9F75C007E5FE7;
+					};
+				};
+			};
+			buildConfigurationList = E6FA56CC1DB9F75C007E5FE7 /* Build configuration list for PBXProject "VIPER Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6FA56C81DB9F75C007E5FE7;
+			productRefGroup = E6FA56D21DB9F75C007E5FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6FA56D01DB9F75C007E5FE7 /* VIPER Demo */,
+				E6FA56E61DB9F75C007E5FE7 /* VIPER DemoTests */,
+				E6FA56F11DB9F75C007E5FE7 /* VIPER DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6FA56CF1DB9F75C007E5FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67D56BE1DBDE6F800BE4276 /* Countries.storyboard in Resources */,
+				E6F8E7E51DC0B4B700E514A6 /* CollegeDetails.storyboard in Resources */,
+				E6F8E7E31DC09E4500E514A6 /* Colleges.storyboard in Resources */,
+				E6FA56E11DB9F75C007E5FE7 /* LaunchScreen.storyboard in Resources */,
+				E6FB52C91DC082680064CF04 /* Podfile in Resources */,
+				E6FA56DE1DB9F75C007E5FE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FA56E51DB9F75C007E5FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FA56F01DB9F75C007E5FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41A770815A4AFFA0A7AC099F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D83DE883D5AB25BB2B743B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIPER Demo/Pods-VIPER Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0093D2C24BE52F58F085AD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIPER Demo/Pods-VIPER Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6FA56CD1DB9F75C007E5FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AC406F1DC0857E00DEDCBA /* CollegesWireframe.swift in Sources */,
+				E6AC40641DC0857E00DEDCBA /* CollegeDetailsInteractorOutput.swift in Sources */,
+				E6AC40661DC0857E00DEDCBA /* CollegeDetailsPresenter.swift in Sources */,
+				E6FA57081DB9FDD4007E5FE7 /* AppDependencies.swift in Sources */,
+				E6AC40711DC0857E00DEDCBA /* CollegesViewInterface.swift in Sources */,
+				E6AC40731DC0857E00DEDCBA /* CountriesInteractorInput.swift in Sources */,
+				E6AC406C1DC0857E00DEDCBA /* CollegesInteractorOutput.swift in Sources */,
+				E6AC406D1DC0857E00DEDCBA /* CollegesModuleInterface.swift in Sources */,
+				E6AC40721DC0857E00DEDCBA /* CountriesInteractor.swift in Sources */,
+				E6AC406B1DC0857E00DEDCBA /* CollegesInteractorInput.swift in Sources */,
+				E6AC40691DC0857E00DEDCBA /* CollegeDetailsViewInterface.swift in Sources */,
+				E6AC40621DC0857E00DEDCBA /* CollegeDetailsInteractor.swift in Sources */,
+				E6AC406E1DC0857E00DEDCBA /* CollegesPresenter.swift in Sources */,
+				E6AC40771DC0857E00DEDCBA /* CountriesWireframe.swift in Sources */,
+				E6FA56D51DB9F75C007E5FE7 /* AppDelegate.swift in Sources */,
+				E6AC40631DC0857E00DEDCBA /* CollegeDetailsInteractorInput.swift in Sources */,
+				E6AC40701DC0857E00DEDCBA /* CollegesViewController.swift in Sources */,
+				E6AC40781DC0857E00DEDCBA /* CountriesViewController.swift in Sources */,
+				E6AC40751DC0857E00DEDCBA /* CountriesModuleInterface.swift in Sources */,
+				E6AC40741DC0857E00DEDCBA /* CountriesInteractorOutput.swift in Sources */,
+				E6AC40671DC0857E00DEDCBA /* CollegeDetailsWireframe.swift in Sources */,
+				E6AC406A1DC0857E00DEDCBA /* CollegesInteractor.swift in Sources */,
+				E6AC40651DC0857E00DEDCBA /* CollegeDetailsModuleInterface.swift in Sources */,
+				E6FA57491DBA304E007E5FE7 /* RootWireframe.swift in Sources */,
+				E6AC40681DC0857E00DEDCBA /* CollegeDetailsViewController.swift in Sources */,
+				E6AC40761DC0857E00DEDCBA /* CountriesPresenter.swift in Sources */,
+				E6AC40791DC0857E00DEDCBA /* CountriesViewInterface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FA56E31DB9F75C007E5FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FA56EC1DB9F75C007E5FE7 /* VIPER_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FA56EE1DB9F75C007E5FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FA56F71DB9F75C007E5FE7 /* VIPER_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6FA56E91DB9F75C007E5FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6FA56D01DB9F75C007E5FE7 /* VIPER Demo */;
+			targetProxy = E6FA56E81DB9F75C007E5FE7 /* PBXContainerItemProxy */;
+		};
+		E6FA56F41DB9F75C007E5FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6FA56D01DB9F75C007E5FE7 /* VIPER Demo */;
+			targetProxy = E6FA56F31DB9F75C007E5FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6FA56DF1DB9F75C007E5FE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6FA56E01DB9F75C007E5FE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6FA56F91DB9F75C007E5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6FA56FA1DB9F75C007E5FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6FA56FC1DB9F75C007E5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E04429915AA17A6D0E1952 /* Pods-VIPER Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VIPER Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VIPER-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E6FA56FD1DB9F75C007E5FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0B683A2B88372C31616770 /* Pods-VIPER Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VIPER Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VIPER-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E6FA56FF1DB9F75C007E5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VIPER DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VIPER-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPER Demo.app/VIPER Demo";
+			};
+			name = Debug;
+		};
+		E6FA57001DB9F75C007E5FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VIPER DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VIPER-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPER Demo.app/VIPER Demo";
+			};
+			name = Release;
+		};
+		E6FA57021DB9F75C007E5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "VIPER DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VIPER-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "VIPER Demo";
+			};
+			name = Debug;
+		};
+		E6FA57031DB9F75C007E5FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "VIPER DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VIPER-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "VIPER Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6FA56CC1DB9F75C007E5FE7 /* Build configuration list for PBXProject "VIPER Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FA56F91DB9F75C007E5FE7 /* Debug */,
+				E6FA56FA1DB9F75C007E5FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FA56FB1DB9F75C007E5FE7 /* Build configuration list for PBXNativeTarget "VIPER Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FA56FC1DB9F75C007E5FE7 /* Debug */,
+				E6FA56FD1DB9F75C007E5FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FA56FE1DB9F75C007E5FE7 /* Build configuration list for PBXNativeTarget "VIPER DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FA56FF1DB9F75C007E5FE7 /* Debug */,
+				E6FA57001DB9F75C007E5FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FA57011DB9F75C007E5FE7 /* Build configuration list for PBXNativeTarget "VIPER DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FA57021DB9F75C007E5FE7 /* Debug */,
+				E6FA57031DB9F75C007E5FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6FA56C91DB9F75C007E5FE7 /* Project object */;
+}
