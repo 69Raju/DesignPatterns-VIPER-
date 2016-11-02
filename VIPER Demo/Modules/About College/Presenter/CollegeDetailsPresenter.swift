@@ -26,6 +26,6 @@ class CollegeDetailsPresenter: CollegeDetailsInteractorOutput, CollegeDetailsMod
     //MARK: CollegeDetailsModuelInterface protocol methods
     
     func reloadView() {
-        
+        self.collegeDetailsView.showCollegeDetails(url: self.collegeWebsiteURL)
     }
 }

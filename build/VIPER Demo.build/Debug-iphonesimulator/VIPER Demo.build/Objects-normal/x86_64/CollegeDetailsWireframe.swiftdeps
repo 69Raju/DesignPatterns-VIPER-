@@ -1,0 +1,293 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CollegeDetailsWireframe"
+provides-nominal:
+- "C10VIPER_Demo23CollegeDetailsWireframe"
+provides-member:
+- ["C10VIPER_Demo23CollegeDetailsWireframe", ""]
+provides-dynamic-lookup:
+- "nextWireframe"
+- "pushCollegeDetails"
+- "collegeDetailsViewController"
+depends-top-level:
+- !private "Bundle"
+- "UIViewController"
+- "CollegeDetailsViewController"
+- "CollegeDetailsPresenter"
+- "NSObject"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "StringLiteralType"
+- "CollegeDetailsWireframe"
+- !private "BooleanLiteralType"
+- !private "UIStoryboard"
+depends-member:
+- !private ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "UIStoryboard"]
+- ["Ps9AnyObject", "collegeDetailsPresenter"]
+- !private ["Ps9AnyObject", "collegeDetailsView"]
+- ["Ps9AnyObject", "collegeDetailsViewController"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewController"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "navigationController"]
+- ["Ps9AnyObject", "nextWireframe"]
+- ["Ps9AnyObject", "pushCollegeDetails"]
+- !private ["Ps9AnyObject", "pushViewController"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- ["CSo6Bundle", "deinit"]
+- !private ["CSo6Bundle", "main"]
+- !private ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "UIStoryboard"]
+- ["Ps7CVarArg", "collegeDetailsPresenter"]
+- ["Ps7CVarArg", "collegeDetailsViewController"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateViewController"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "navigationController"]
+- ["Ps7CVarArg", "nextWireframe"]
+- ["Ps7CVarArg", "pushCollegeDetails"]
+- !private ["Ps7CVarArg", "pushViewController"]
+- ["Ps7CVarArg", ""]
+- !private ["P10VIPER_Demo30CollegeDetailsInteractorOutput", "collegeDetailsView"]
+- !private ["P10VIPER_Demo29CollegeDetailsModuleInterface", "collegeDetailsView"]
+- !private ["C10VIPER_Demo23CollegeDetailsPresenter", "collegeDetailsView"]
+- !private ["C10VIPER_Demo28CollegeDetailsViewController", "collegeDetailsPresenter"]
+- ["C10VIPER_Demo28CollegeDetailsViewController", "deinit"]
+- !private ["P10VIPER_Demo27CollegeDetailsViewInterface", "collegeDetailsPresenter"]
+- !private ["C10VIPER_Demo23CollegeDetailsWireframe", "Bundle"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "CollegeDetailsPresenter"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "CollegeDetailsViewController"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "NSObject"]
+- !private ["C10VIPER_Demo23CollegeDetailsWireframe", "UIStoryboard"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "UIViewController"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "collegeDetailsPresenter"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "collegeDetailsViewController"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "deinit"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "init"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "nextWireframe"]
+- ["C10VIPER_Demo23CollegeDetailsWireframe", "pushCollegeDetails"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
+- ["Ps28CustomDebugStringConvertible", "collegeDetailsPresenter"]
+- ["Ps28CustomDebugStringConvertible", "collegeDetailsViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- ["Ps28CustomDebugStringConvertible", "nextWireframe"]
+- ["Ps28CustomDebugStringConvertible", "pushCollegeDetails"]
+- !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "UIStoryboard"]
+- ["Ps23CustomStringConvertible", "collegeDetailsPresenter"]
+- ["Ps23CustomStringConvertible", "collegeDetailsViewController"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewController"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- ["Ps23CustomStringConvertible", "nextWireframe"]
+- ["Ps23CustomStringConvertible", "pushCollegeDetails"]
+- !private ["Ps23CustomStringConvertible", "pushViewController"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "UIStoryboard"]
+- ["Ps9Equatable", "collegeDetailsPresenter"]
+- ["Ps9Equatable", "collegeDetailsViewController"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewController"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "navigationController"]
+- ["Ps9Equatable", "nextWireframe"]
+- ["Ps9Equatable", "pushCollegeDetails"]
+- !private ["Ps9Equatable", "pushViewController"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "UIStoryboard"]
+- ["Ps8Hashable", "collegeDetailsPresenter"]
+- ["Ps8Hashable", "collegeDetailsViewController"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewController"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "navigationController"]
+- ["Ps8Hashable", "nextWireframe"]
+- ["Ps8Hashable", "pushCollegeDetails"]
+- !private ["Ps8Hashable", "pushViewController"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "collegeDetailsPresenter"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "pushViewController"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "collegeDetailsPresenter"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "CollegeDetailsPresenter"]
+- ["CSo8NSObject", "CollegeDetailsViewController"]
+- ["CSo8NSObject", "NSObject"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "collegeDetailsPresenter"]
+- ["CSo8NSObject", "collegeDetailsViewController"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewController"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "nextWireframe"]
+- ["CSo8NSObject", "pushCollegeDetails"]
+- !private ["CSo8NSObject", "pushViewController"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- ["PSo16NSObjectProtocol", "collegeDetailsPresenter"]
+- ["PSo16NSObjectProtocol", "collegeDetailsViewController"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewController"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "nextWireframe"]
+- ["PSo16NSObjectProtocol", "pushCollegeDetails"]
+- !private ["PSo16NSObjectProtocol", "pushViewController"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "collegeDetailsPresenter"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "pushViewController"]
+- !private ["PSo18UIContentContainer", "collegeDetailsPresenter"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "pushViewController"]
+- !private ["PSo18UIFocusEnvironment", "collegeDetailsPresenter"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "pushViewController"]
+- ["CSo22UINavigationController", "deinit"]
+- !private ["CSo22UINavigationController", "pushViewController"]
+- !private ["CSo11UIResponder", "collegeDetailsPresenter"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "pushViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "collegeDetailsPresenter"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationController"]
+- !private ["PSo30UIResponderStandardEditActions", "pushViewController"]
+- !private ["PSo16UIStateRestoring", "collegeDetailsPresenter"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "pushViewController"]
+- ["CSo12UIStoryboard", "deinit"]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateViewController"]
+- !private ["PSo18UITraitEnvironment", "collegeDetailsPresenter"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "pushViewController"]
+- !private ["CSo16UIViewController", "collegeDetailsPresenter"]
+- ["CSo16UIViewController", "deinit"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "pushViewController"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "UIStoryboard"]
+- ["Ps9_Hashable", "collegeDetailsPresenter"]
+- ["Ps9_Hashable", "collegeDetailsViewController"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateViewController"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "navigationController"]
+- ["Ps9_Hashable", "nextWireframe"]
+- ["Ps9_Hashable", "pushCollegeDetails"]
+- !private ["Ps9_Hashable", "pushViewController"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "CSo6Bundle"
+- "Ps7CVarArg"
+- !private "P10VIPER_Demo30CollegeDetailsInteractorOutput"
+- !private "P10VIPER_Demo29CollegeDetailsModuleInterface"
+- !private "C10VIPER_Demo23CollegeDetailsPresenter"
+- "C10VIPER_Demo28CollegeDetailsViewController"
+- !private "P10VIPER_Demo27CollegeDetailsViewInterface"
+- "C10VIPER_Demo23CollegeDetailsWireframe"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- "CSo22UINavigationController"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- "CSo12UIStoryboard"
+- !private "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "P9Alamofire14URLConvertible"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "ee014a4962cced4fc8e21acb3db3f042"

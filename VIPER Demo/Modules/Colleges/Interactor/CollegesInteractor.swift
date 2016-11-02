@@ -22,10 +22,10 @@ class CollegesInteractor: CollegesInteractorInput { ///Adopts CollegeInteractorI
         ///Use alamofire for fetching colleges in country.
         let urlString: String = "http://universities.hipolabs.com/search?country=\(country)"
         Alamofire.request(urlString).responseJSON { (response) in
-            print(response)
+            print(response.result.value)
+            let countries = response.result.value as! NSArray
+            self.collegesPresenter.foundCollegesInCountry(countries: countries)
         }
-        
-        //self.collegesPresenter.foundCollegesInCountry(countries: ["A", "B", "C"])
     }
     
 }

@@ -11,5 +11,5 @@ import UIKit
 protocol CollegeDetailsViewInterface: class {
 
     func showError(error: NSError)
-    func showCollegeDetails()
+    func showCollegeDetails(url: URL)
 }

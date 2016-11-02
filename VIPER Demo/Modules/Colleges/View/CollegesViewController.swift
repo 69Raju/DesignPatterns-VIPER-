@@ -16,6 +16,7 @@ class CollegesViewController: UIViewController, CollegesViewInterface { ///Adopt
     //UI
     @IBOutlet weak var collegesTableView: UITableView!
     @IBOutlet weak var errorView: UIView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     
     ///Data source
@@ -27,6 +28,12 @@ class CollegesViewController: UIViewController, CollegesViewInterface { ///Adopt
 
         // Do any additional setup after loading the view.
         self.colleges = []
+        
+        self.collegesTableView.contentInset = UIEdgeInsetsMake(-44, 0, 0, 0)
+        self.setActivityIndicatorVisible(isVisible: true)
+        self.setTableViewVisibile(isVisible: false)
+        self.activityIndicator?.startAnimating()
+        self.collegesPresenter.fetchColleges()
     }
     
 
@@ -38,7 +45,6 @@ class CollegesViewController: UIViewController, CollegesViewInterface { ///Adopt
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.collegesPresenter.fetchColleges()
     }
     
 
@@ -58,23 +64,41 @@ class CollegesViewController: UIViewController, CollegesViewInterface { ///Adopt
     
     func showNoCollegesFound() {
         self.setTableViewVisibile(isVisible: false)
+        self.setActivityIndicatorVisible(isVisible: false)
+        self.setErrorViewVisible(isVisible: true)
     }
     
     
     func showColleges(colleges: NSArray) {
         self.colleges = colleges
-        self.setTableViewVisibile(isVisible: true)
+        self.setActivityIndicatorVisible(isVisible: false)
         self.reloadView()
     }
 
     
+    private func setErrorViewVisible(isVisible visible: Bool) {
+        self.errorView.isHidden = !visible
+    }
+    
     private func setTableViewVisibile(isVisible visible: Bool) {
         self.collegesTableView.isHidden = !visible
-        self.errorView.isHidden = visible
+    }
+    
+    
+    private func setActivityIndicatorVisible(isVisible visible: Bool) {
+        if visible == true {
+            self.view.bringSubview(toFront: self.activityIndicator)
+        } else {
+            self.view.sendSubview(toBack: self.activityIndicator)
+        }
+        self.collegesTableView.isHidden = visible
+        self.activityIndicator.isHidden = !visible
     }
     
     
     private func reloadView() {
+        self.setTableViewVisibile(isVisible: true)
+        self.setErrorViewVisible(isVisible: false)
         self.collegesTableView.reloadData()
     }
     
@@ -84,8 +108,9 @@ class CollegesViewController: UIViewController, CollegesViewInterface { ///Adopt
 extension CollegesViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //let college = self.colleges[indexPath.row] as! String
-        let url = URL(string: "www.google.com")
+        let college = self.colleges[indexPath.row] as! NSDictionary
+        let webPage = college.object(forKey: "web_page") as! String
+        let url = URL(string: webPage)
         self.collegesPresenter.showCollegeDetails(withCollegeWebsiteURL:url!)
     }
     
@@ -96,8 +121,9 @@ extension CollegesViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "College")
-        let college = self.colleges[indexPath.row] as! String
-        cell.textLabel?.text = college
+        let college = self.colleges[indexPath.row] as! NSDictionary
+        print(college)
+        cell.textLabel?.text = college.object(forKey: "name") as? String
         return cell
     }
     

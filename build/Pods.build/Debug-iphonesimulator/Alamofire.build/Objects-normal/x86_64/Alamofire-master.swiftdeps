@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "2f92dd4d13e726aaeb5e608e4189caa0"
+build_time: [531384771, 999794000]
+inputs:
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/AFError.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/Alamofire.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/MultipartFormData.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/Notifications.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/ParameterEncoding.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/Request.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/Response.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/ResponseSerialization.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/Result.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/ServerTrustPolicy.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/SessionDelegate.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/SessionManager.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/TaskDelegate.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/Timeline.swift": [530778648, 0]
+  "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/Pods/Alamofire/Source/Validation.swift": [530778648, 0]

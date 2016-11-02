@@ -20,6 +20,8 @@ class CollegeDetailsViewController: UIViewController, CollegeDetailsViewInterfac
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.webView.scrollView.contentInset = UIEdgeInsetsMake(-44, 0, 0, 0)
+        self.collegeDetailsPresenter.reloadView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,8 +48,9 @@ class CollegeDetailsViewController: UIViewController, CollegeDetailsViewInterfac
     }
     
     
-    func showCollegeDetails() {
-        
+    func showCollegeDetails(url: URL) {
+        let request = URLRequest.init(url: url)
+        self.webView.loadRequest(request)
     }
 
 }
