@@ -1,0 +1,279 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDependencies"
+provides-nominal:
+- "C10VIPER_Demo15AppDependencies"
+provides-member:
+- ["C10VIPER_Demo15AppDependencies", ""]
+provides-dynamic-lookup:
+- "countriesWireframe"
+- "installRootViewControllerInWindow"
+- "configureDependencies"
+depends-top-level:
+- "NSObject"
+- "UIWindow"
+- !private "CollegesInteractor"
+- !private "CountriesPresenter"
+- "CountriesWireframe"
+- !private "CountriesInteractor"
+- !private "RootWireframe"
+- !private "CollegesWireframe"
+- !private "CollegesPresenter"
+- "AssignmentPrecedence"
+- "AppDependencies"
+depends-member:
+- !private ["Ps9AnyObject", "CollegesInteractor"]
+- !private ["Ps9AnyObject", "CollegesPresenter"]
+- !private ["Ps9AnyObject", "CollegesWireframe"]
+- !private ["Ps9AnyObject", "CountriesInteractor"]
+- !private ["Ps9AnyObject", "CountriesPresenter"]
+- !private ["Ps9AnyObject", "CountriesWireframe"]
+- !private ["Ps9AnyObject", "RootWireframe"]
+- !private ["Ps9AnyObject", "addListInterfaceInWindow"]
+- !private ["Ps9AnyObject", "collegesInteractor"]
+- !private ["Ps9AnyObject", "collegesPresenter"]
+- !private ["Ps9AnyObject", "collegesWireframe"]
+- ["Ps9AnyObject", "configureDependencies"]
+- !private ["Ps9AnyObject", "countriesInteractor"]
+- !private ["Ps9AnyObject", "countriesPresenter"]
+- ["Ps9AnyObject", "countriesWireframe"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "installRootViewControllerInWindow"]
+- !private ["Ps9AnyObject", "rootWireframe"]
+- ["Ps9AnyObject", ""]
+- !private ["C10VIPER_Demo15AppDependencies", "CollegesInteractor"]
+- !private ["C10VIPER_Demo15AppDependencies", "CollegesPresenter"]
+- !private ["C10VIPER_Demo15AppDependencies", "CollegesWireframe"]
+- !private ["C10VIPER_Demo15AppDependencies", "CountriesInteractor"]
+- !private ["C10VIPER_Demo15AppDependencies", "CountriesPresenter"]
+- ["C10VIPER_Demo15AppDependencies", "CountriesWireframe"]
+- !private ["C10VIPER_Demo15AppDependencies", "RootWireframe"]
+- ["C10VIPER_Demo15AppDependencies", "UIWindow"]
+- ["C10VIPER_Demo15AppDependencies", "configureDependencies"]
+- ["C10VIPER_Demo15AppDependencies", "countriesWireframe"]
+- ["C10VIPER_Demo15AppDependencies", "deinit"]
+- ["C10VIPER_Demo15AppDependencies", "init"]
+- ["C10VIPER_Demo15AppDependencies", "installRootViewControllerInWindow"]
+- !private ["Ps7CVarArg", "CollegesInteractor"]
+- !private ["Ps7CVarArg", "CollegesPresenter"]
+- !private ["Ps7CVarArg", "CollegesWireframe"]
+- !private ["Ps7CVarArg", "CountriesInteractor"]
+- !private ["Ps7CVarArg", "CountriesPresenter"]
+- !private ["Ps7CVarArg", "CountriesWireframe"]
+- !private ["Ps7CVarArg", "RootWireframe"]
+- !private ["Ps7CVarArg", "addListInterfaceInWindow"]
+- !private ["Ps7CVarArg", "collegesPresenter"]
+- !private ["Ps7CVarArg", "collegesWireframe"]
+- ["Ps7CVarArg", "configureDependencies"]
+- !private ["Ps7CVarArg", "countriesPresenter"]
+- ["Ps7CVarArg", "countriesWireframe"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "installRootViewControllerInWindow"]
+- !private ["Ps7CVarArg", "rootWireframe"]
+- ["Ps7CVarArg", ""]
+- !private ["C10VIPER_Demo18CollegesInteractor", "collegesPresenter"]
+- ["C10VIPER_Demo18CollegesInteractor", "deinit"]
+- !private ["C10VIPER_Demo18CollegesInteractor", "init"]
+- !private ["P10VIPER_Demo23CollegesInteractorInput", "collegesPresenter"]
+- !private ["P10VIPER_Demo23CollegesInteractorInput", "init"]
+- !private ["P10VIPER_Demo24CollegesInteractorOutput", "collegesInteractor"]
+- !private ["P10VIPER_Demo24CollegesInteractorOutput", "collegesWireframe"]
+- !private ["P10VIPER_Demo24CollegesInteractorOutput", "init"]
+- !private ["P10VIPER_Demo23CollegesModuleInterface", "collegesInteractor"]
+- !private ["P10VIPER_Demo23CollegesModuleInterface", "collegesWireframe"]
+- !private ["P10VIPER_Demo23CollegesModuleInterface", "init"]
+- !private ["C10VIPER_Demo17CollegesPresenter", "collegesInteractor"]
+- !private ["C10VIPER_Demo17CollegesPresenter", "collegesWireframe"]
+- ["C10VIPER_Demo17CollegesPresenter", "deinit"]
+- !private ["C10VIPER_Demo17CollegesPresenter", "init"]
+- !private ["C10VIPER_Demo17CollegesWireframe", "collegesPresenter"]
+- ["C10VIPER_Demo17CollegesWireframe", "deinit"]
+- !private ["C10VIPER_Demo17CollegesWireframe", "init"]
+- !private ["C10VIPER_Demo19CountriesInteractor", "countriesPresenter"]
+- ["C10VIPER_Demo19CountriesInteractor", "deinit"]
+- !private ["C10VIPER_Demo19CountriesInteractor", "init"]
+- !private ["P10VIPER_Demo24CountriesInteractorInput", "countriesPresenter"]
+- !private ["P10VIPER_Demo24CountriesInteractorInput", "init"]
+- !private ["P10VIPER_Demo25CountriesInteractorOutput", "countriesInteractor"]
+- !private ["P10VIPER_Demo25CountriesInteractorOutput", "countriesWireframe"]
+- !private ["P10VIPER_Demo25CountriesInteractorOutput", "init"]
+- !private ["P10VIPER_Demo24CountriesModuleInterface", "countriesInteractor"]
+- !private ["P10VIPER_Demo24CountriesModuleInterface", "countriesWireframe"]
+- !private ["P10VIPER_Demo24CountriesModuleInterface", "init"]
+- !private ["C10VIPER_Demo18CountriesPresenter", "countriesInteractor"]
+- !private ["C10VIPER_Demo18CountriesPresenter", "countriesWireframe"]
+- ["C10VIPER_Demo18CountriesPresenter", "deinit"]
+- !private ["C10VIPER_Demo18CountriesPresenter", "init"]
+- !private ["C10VIPER_Demo18CountriesWireframe", "addListInterfaceInWindow"]
+- !private ["C10VIPER_Demo18CountriesWireframe", "collegesWireframe"]
+- !private ["C10VIPER_Demo18CountriesWireframe", "countriesPresenter"]
+- ["C10VIPER_Demo18CountriesWireframe", "deinit"]
+- !private ["C10VIPER_Demo18CountriesWireframe", "init"]
+- !private ["C10VIPER_Demo18CountriesWireframe", "rootWireframe"]
+- !private ["Ps28CustomDebugStringConvertible", "CollegesInteractor"]
+- !private ["Ps28CustomDebugStringConvertible", "CollegesPresenter"]
+- !private ["Ps28CustomDebugStringConvertible", "CollegesWireframe"]
+- !private ["Ps28CustomDebugStringConvertible", "CountriesInteractor"]
+- !private ["Ps28CustomDebugStringConvertible", "CountriesPresenter"]
+- !private ["Ps28CustomDebugStringConvertible", "CountriesWireframe"]
+- !private ["Ps28CustomDebugStringConvertible", "RootWireframe"]
+- !private ["Ps28CustomDebugStringConvertible", "addListInterfaceInWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "collegesPresenter"]
+- !private ["Ps28CustomDebugStringConvertible", "collegesWireframe"]
+- ["Ps28CustomDebugStringConvertible", "configureDependencies"]
+- !private ["Ps28CustomDebugStringConvertible", "countriesPresenter"]
+- ["Ps28CustomDebugStringConvertible", "countriesWireframe"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "installRootViewControllerInWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "rootWireframe"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CollegesInteractor"]
+- !private ["Ps23CustomStringConvertible", "CollegesPresenter"]
+- !private ["Ps23CustomStringConvertible", "CollegesWireframe"]
+- !private ["Ps23CustomStringConvertible", "CountriesInteractor"]
+- !private ["Ps23CustomStringConvertible", "CountriesPresenter"]
+- !private ["Ps23CustomStringConvertible", "CountriesWireframe"]
+- !private ["Ps23CustomStringConvertible", "RootWireframe"]
+- !private ["Ps23CustomStringConvertible", "addListInterfaceInWindow"]
+- !private ["Ps23CustomStringConvertible", "collegesPresenter"]
+- !private ["Ps23CustomStringConvertible", "collegesWireframe"]
+- ["Ps23CustomStringConvertible", "configureDependencies"]
+- !private ["Ps23CustomStringConvertible", "countriesPresenter"]
+- ["Ps23CustomStringConvertible", "countriesWireframe"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "installRootViewControllerInWindow"]
+- !private ["Ps23CustomStringConvertible", "rootWireframe"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CollegesInteractor"]
+- !private ["Ps9Equatable", "CollegesPresenter"]
+- !private ["Ps9Equatable", "CollegesWireframe"]
+- !private ["Ps9Equatable", "CountriesInteractor"]
+- !private ["Ps9Equatable", "CountriesPresenter"]
+- !private ["Ps9Equatable", "CountriesWireframe"]
+- !private ["Ps9Equatable", "RootWireframe"]
+- !private ["Ps9Equatable", "addListInterfaceInWindow"]
+- !private ["Ps9Equatable", "collegesPresenter"]
+- !private ["Ps9Equatable", "collegesWireframe"]
+- ["Ps9Equatable", "configureDependencies"]
+- !private ["Ps9Equatable", "countriesPresenter"]
+- ["Ps9Equatable", "countriesWireframe"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "installRootViewControllerInWindow"]
+- !private ["Ps9Equatable", "rootWireframe"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CollegesInteractor"]
+- !private ["Ps8Hashable", "CollegesPresenter"]
+- !private ["Ps8Hashable", "CollegesWireframe"]
+- !private ["Ps8Hashable", "CountriesInteractor"]
+- !private ["Ps8Hashable", "CountriesPresenter"]
+- !private ["Ps8Hashable", "CountriesWireframe"]
+- !private ["Ps8Hashable", "RootWireframe"]
+- !private ["Ps8Hashable", "addListInterfaceInWindow"]
+- !private ["Ps8Hashable", "collegesPresenter"]
+- !private ["Ps8Hashable", "collegesWireframe"]
+- ["Ps8Hashable", "configureDependencies"]
+- !private ["Ps8Hashable", "countriesPresenter"]
+- ["Ps8Hashable", "countriesWireframe"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "installRootViewControllerInWindow"]
+- !private ["Ps8Hashable", "rootWireframe"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["CSo8NSObject", "CollegesInteractor"]
+- !private ["CSo8NSObject", "CollegesPresenter"]
+- !private ["CSo8NSObject", "CollegesWireframe"]
+- !private ["CSo8NSObject", "CountriesInteractor"]
+- !private ["CSo8NSObject", "CountriesPresenter"]
+- ["CSo8NSObject", "CountriesWireframe"]
+- !private ["CSo8NSObject", "RootWireframe"]
+- ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "addListInterfaceInWindow"]
+- !private ["CSo8NSObject", "collegesPresenter"]
+- !private ["CSo8NSObject", "collegesWireframe"]
+- ["CSo8NSObject", "configureDependencies"]
+- !private ["CSo8NSObject", "countriesPresenter"]
+- ["CSo8NSObject", "countriesWireframe"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "installRootViewControllerInWindow"]
+- !private ["CSo8NSObject", "rootWireframe"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CollegesInteractor"]
+- !private ["PSo16NSObjectProtocol", "CollegesPresenter"]
+- !private ["PSo16NSObjectProtocol", "CollegesWireframe"]
+- !private ["PSo16NSObjectProtocol", "CountriesInteractor"]
+- !private ["PSo16NSObjectProtocol", "CountriesPresenter"]
+- !private ["PSo16NSObjectProtocol", "CountriesWireframe"]
+- !private ["PSo16NSObjectProtocol", "RootWireframe"]
+- !private ["PSo16NSObjectProtocol", "addListInterfaceInWindow"]
+- !private ["PSo16NSObjectProtocol", "collegesPresenter"]
+- !private ["PSo16NSObjectProtocol", "collegesWireframe"]
+- ["PSo16NSObjectProtocol", "configureDependencies"]
+- !private ["PSo16NSObjectProtocol", "countriesPresenter"]
+- ["PSo16NSObjectProtocol", "countriesWireframe"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "installRootViewControllerInWindow"]
+- !private ["PSo16NSObjectProtocol", "rootWireframe"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C10VIPER_Demo13RootWireframe", "deinit"]
+- !private ["C10VIPER_Demo13RootWireframe", "init"]
+- ["CSo8UIWindow", "deinit"]
+- !private ["Ps9_Hashable", "CollegesInteractor"]
+- !private ["Ps9_Hashable", "CollegesPresenter"]
+- !private ["Ps9_Hashable", "CollegesWireframe"]
+- !private ["Ps9_Hashable", "CountriesInteractor"]
+- !private ["Ps9_Hashable", "CountriesPresenter"]
+- !private ["Ps9_Hashable", "CountriesWireframe"]
+- !private ["Ps9_Hashable", "RootWireframe"]
+- !private ["Ps9_Hashable", "addListInterfaceInWindow"]
+- !private ["Ps9_Hashable", "collegesPresenter"]
+- !private ["Ps9_Hashable", "collegesWireframe"]
+- ["Ps9_Hashable", "configureDependencies"]
+- !private ["Ps9_Hashable", "countriesPresenter"]
+- ["Ps9_Hashable", "countriesWireframe"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "installRootViewControllerInWindow"]
+- !private ["Ps9_Hashable", "rootWireframe"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10VIPER_Demo15AppDependencies"
+- "Ps7CVarArg"
+- "C10VIPER_Demo18CollegesInteractor"
+- !private "P10VIPER_Demo23CollegesInteractorInput"
+- !private "P10VIPER_Demo24CollegesInteractorOutput"
+- !private "P10VIPER_Demo23CollegesModuleInterface"
+- "C10VIPER_Demo17CollegesPresenter"
+- "C10VIPER_Demo17CollegesWireframe"
+- "C10VIPER_Demo19CountriesInteractor"
+- !private "P10VIPER_Demo24CountriesInteractorInput"
+- !private "P10VIPER_Demo25CountriesInteractorOutput"
+- !private "P10VIPER_Demo24CountriesModuleInterface"
+- "C10VIPER_Demo18CountriesPresenter"
+- "C10VIPER_Demo18CountriesWireframe"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C10VIPER_Demo13RootWireframe"
+- "CSo8UIWindow"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode_8/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Nagaraju/Desktop/iOS Tech Talk/Demo 2/VIPER Demo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "bf5b2c18a74b3c706bad603f93fdff95"
