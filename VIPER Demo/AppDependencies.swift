@@ -80,17 +80,17 @@ class AppDependencies: NSObject {
          *
          */
         
-//        let collegeDetailsPresenter = CollegeDetailsPresenter()
-//        let collegeDetailsInteractor = CollegeDetailsInteractor()
-//        let collegeDetailsWireframe = CollegeDetailsWireframe()
+        let collegeDetailsPresenter = CollegeDetailsPresenter()
+        let collegeDetailsInteractor = CollegeDetailsInteractor()
+        let collegeDetailsWireframe = CollegeDetailsWireframe()
         
-//        collegeDetailsPresenter.collegeDetailsInteractor = collegeDetailsInteractor
-//        collegeDetailsPresenter.collegeDetailsWireframe = collegeDetailsWireframe
-//        collegeDetailsInteractor.collegeDetailsPresenter = collegeDetailsPresenter
-//        collegeDetailsWireframe.collegeDetailsPresenter = collegeDetailsPresenter
+        collegeDetailsPresenter.collegeDetailsInteractor = collegeDetailsInteractor
+        collegeDetailsPresenter.collegeDetailsWireframe = collegeDetailsWireframe
+        collegeDetailsInteractor.collegeDetailsPresenter = collegeDetailsPresenter
+        collegeDetailsWireframe.collegeDetailsPresenter = collegeDetailsPresenter
         
         ///Link collegesWireframe to collegeDetailsWireframe
-//        collegesWireframe.collegeDetailsWireframe = collegeDetailsWireframe
+        collegesWireframe.collegeDetailsWireframe = collegeDetailsWireframe
     }
     
     
